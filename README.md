@@ -7,7 +7,7 @@ A modern and customized desktop environment configuration using Hyprland Wayland
 - 🖥️ **Hyprland** - A dynamic tiling Wayland compositor
 - 🎯 **Waybar** - Highly customizable status bar
 - 🚀 **Rofi** - Application launcher with custom theme
-- 🔧 **Kitty & Warp** - Modern terminal emulators
+- 🔧 **Kittyp** - Modern terminal emulators
 - 🎨 **Custom Theme** - Tokyo Night inspired color scheme
 - 📁 **Thunar** - File manager with custom actions
 
@@ -25,7 +25,7 @@ A modern and customized desktop environment configuration using Hyprland Wayland
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/HYRP-dotfiles.git
+git clone https://github.com/biglexj/HYRP-dotfiles.git
 ```
 
 2. Copy configuration files:
