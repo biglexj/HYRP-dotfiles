@@ -6,20 +6,28 @@ A modern and customized desktop environment configuration using Hyprland Wayland
 
 - 🖥️ **Hyprland** - A dynamic tiling Wayland compositor
 - 🎯 **Waybar** - Highly customizable status bar
-- 🚀 **Rofi** - Application launcher with custom theme
-- 🔧 **Kittyp** - Modern terminal emulators
+- 🚀 **Rofi** - Application launcher with custom themes
+- 🔧 **Kitty** - Modern terminal emulator
 - 🎨 **Custom Theme** - Tokyo Night inspired color scheme
 - 📁 **Thunar** - File manager with custom actions
+- 🖼️ **Fastfetch** - System information display
+- 🐚 **ZSH** - Feature-rich shell configuration
 
 ## 📦 Components
 
 - Window Manager: Hyprland
 - Status Bar: Waybar
-- Terminal: Kitty/Warp
-- Application Launcher: Rofi
-- File Manager: Thunar
-- Shell: ZSH with custom prompt
+- Terminal: Kitty
+- Application Launcher: Rofi with multiple themes
+  - Catppuccin Macchiato
+  - Nord (One-line and Two-line variants)
+  - Launchpad style
+- File Manager: Thunar with custom actions
+- Shell: ZSH with custom configurations
 - Fonts: JetBrainsMono Nerd Font
+- System Fetch: Fastfetch with custom config
+- GRUB Themes: Hatsune Miku theme included
+- Custom Cursor: Furina-v2
 
 ## 🛠️ Installation
 
@@ -30,7 +38,16 @@ git clone https://github.com/biglexj/HYRP-dotfiles.git
 
 2. Copy configuration files:
 ```bash
-cp -r HYRP-dotfiles/* ~/.config/
+cp -r HYRP-dotfiles/config/* ~/.config/
+```
+
+3. Install themes (optional):
+```bash
+# Copy GRUB theme
+sudo cp -r Theme/Grub/Hatsune\ Miku\ -\ Theme\ Grub /boot/grub/themes/
+
+# Copy cursor theme
+cp -r Theme/Cursor/Furina-v2 ~/.icons/
 ```
 
 ## 📸 Screenshots
